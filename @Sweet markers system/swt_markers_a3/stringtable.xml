@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3"><Package name="swt_markers_a3">
+<Container name="STR_SWT_M">
+<Key ID="STR_SWT_M_SHOW_BUTTONS">
+<English>Show buttons</English>
+<Russian>Показати кнопки</Russian>
+</Key>
+<Key ID="STR_SWT_M_OKCAN">
+<English>OK, CANCEL</English>
+<Russian>OK, ВІДМІНА</Russian>
+</Key>
+<Key ID="STR_SWT_M_CHOOSE">
+<English>Marker params</English>
+<Russian>Елементи вибору маркера</Russian>
+</Key>
+<Key ID="STR_SWT_M_ICONS">
+<English>Icons</English>
+<Russian>Значки</Russian>
+</Key>
+<Key ID="STR_SWT_M_ADVL">
+<English>Adv. markers lists</English>
+<Russian>Дод. списки маркерів</Russian>
+</Key>
+<Key ID="STR_SWT_M_COLORS">
+<English>Colors</English>
+<Russian>Кольора</Russian>
+</Key>
+<Key ID="STR_SWT_M_F">
+<English>Options</English>
+<Russian>Опції</Russian>
+</Key>
+<Key ID="STR_SWT_M_SAVET">
+<English>Save marker text</English>
+<Russian>Зберегти текст маркера</Russian>
+</Key>
+<Key ID="STR_SWT_M_SAVEM">
+<English>Save color and icon</English>
+<Russian>Зберегти колір i тип</Russian>
+</Key>
+<Key ID="STR_SWT_M_FASTL">
+<English>Save text prefix (G,N,T)</English>
+<Russian>Зберегти приставку (G,N,T)</Russian>
+</Key>
+<Key ID="STR_SWT_M_LOG">
+<English>Logging</English>
+<Russian>Вести лог</Russian>
+</Key>
+<Key ID="STR_SWT_M_BACKGROUND">
+<English>Background</English>
+<Russian>Фон</Russian>
+</Key>
+<Key ID="STR_SWT_M_SAVEDTEXT">
+<English>Saved text</English>
+<Russian>Збережений текст</Russian>
+</Key>
+<Key ID="STR_SWT_M_SAVEDM">
+<English>Saved markers</English>
+<Russian>Збережені маркери</Russian>
+</Key>
+<Key ID="STR_SWT_M_INPROF">
+<English>To profile</English>
+<Russian>У профіль</Russian>
+</Key>
+<Key ID="STR_SWT_M_SAVE">
+<English>Save</English>
+<Russian>Зберегти</Russian>
+</Key>
+<Key ID="STR_SWT_M_LOAD">
+<English>Load</English>
+<Russian>Завантажити</Russian>
+</Key>
+<Key ID="STR_SWT_M_UNLOAD">
+<English>Unload</English>
+<Russian>Вивантажити</Russian>
+</Key>
+<Key ID="STR_SWT_M_CLIP">
+<English>To clipboard</English>
+<Russian>В буфер обміну</Russian>
+</Key>
+<Key ID="STR_SWT_M_ENTERARRAY">
+<English>Enter array</English>
+<Russian>Введіть масив</Russian>
+</Key>
+<Key ID="STR_SWT_M_DEF">
+<English>Default</English>
+<Russian>По замовчуванню</Russian>
+</Key>
+<Key ID="STR_SWT_M_CLEARMAP">
+<English>Clear map (local)</English>
+<Russian>Очистити карту (локально)</Russian>
+</Key>
+<Key ID="STR_SWT_M_DISABLE">
+<English>Disable marker system</English>
+<Russian>Вiдключити систему маркерiв</Russian>
+</Key>
+<Key ID="STR_SWT_M_ENABLE">
+<English>Enable marker system</English>
+<Russian>Ввiмкнути систему маркеров</Russian>
+</Key>
+<Key ID="STR_SWT_M_ADV">
+<English>Advanced...</English>
+<Russian>Розширенi налаштування</Russian>
+</Key>
+<Key ID="STR_SWT_M_HIDEINFO">
+<English>Hide info</English>
+<Russian>Приховати iнформацiю</Russian>
+</Key>
+<Key ID="STR_SWT_M_MARKINFO">
+<English>Show marker info</English>
+<Russian>Iнформацiя про маркер</Russian>
+</Key>
+
+<Key ID="STR_SWT_M_MESS_OLD">
+<English>SWT MARKERS: This version is outdated. The paramaters' saving structure has been changed. Resetting to defaults.</English>
+<Russian>SWT MARKERS: Стара версія. Структура збереження параметрів була змінена. Скидання на параметри по замовчуванню.</Russian>
+</Key>
+<Key ID="STR_SWT_M_MESS_DEF">
+<English>SWT MARKERS: Defaults applied.</English>
+<Russian>SWT MARKERS: Параметри по замовчуванню примінені.</Russian>
+</Key>
+<Key ID="STR_SWT_M_MESS_SAVEDMARKS">
+<English>You have saved %1 marker(s). It is advised not to store too many markers in memory. Please unload them after use.</English>
+<Russian>Ви зберегли %1 маркерiв. Не рекомендується тримати в пам'яті велику кількість маркерів. Вивантажте їх після використання.</Russian>
+</Key>
+<Key ID="STR_SWT_M_MESS_CANTLOAD">
+<English>SWT MARKERS: You can't load more than %2 markers on the map. (You have %1)</English>
+<Russian>SWT MARKERS: Ви не можете завантажити на мапу більше %2 маркерів у мультиплеєрі. (У вас %1)</Russian>
+</Key>
+<Key ID="STR_SWT_M_MESS_NOMARKS">
+<English>SWT MARKERS: You have no saved markers.</English>
+<Russian>SWT MARKERS: У вас відсутні збережені маркери</Russian>
+</Key>
+<Key ID="STR_SWT_M_MESS_CANTDO">
+<English>SWT MARKERS: You cannot perform this action.</English>
+<Russian>SWT MARKERS: Ви не можете виконати цю дію</Russian>
+</Key>
+<Key ID="STR_SWT_M_MESS_DIR">
+<English>SWT MARKERS: Click on the place you want direct the marker to</English>
+<Russian>SWT MARKERS: Клікніть в місце, куди потрібно направити маркер</Russian>
+</Key>
+<Key ID="STR_SWT_M_MESS_WAYERROR">
+<English>SWT MARKERS: Route planning is impossible</English>
+<Russian>SWT MARKERS: Побудова маршруту неможлива</Russian>
+</Key>
+<Key ID="STR_SWT_M_MESS_DISABLED">
+<English>SWT MARKERS: Marker system disabled</English>
+<Russian>SWT MARKERS: Система маркерів відключена</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_BRIEF">
+<English>Disable marker system after briefing</English>
+<Russian>Відключити систему маркерів після брифінгу</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_UNIQ">
+<English>Unique maps</English>
+<Russian>Унікальні мапи</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_CONF">
+<English>Configure params</English>
+<Russian>Налаштувати параметри</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_LOAD">
+<English>Marker loading</English>
+<Russian>Завантаження маркерів</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_LOAD_T">
+<English>Load saved markers</English>
+<Russian>Завантаження збережених маркерів</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_LOAD_FOR">
+<English>Load markers for</English>
+<Russian>Завантаження маркерів для</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_LOAD_FOR_T">
+<English>Loading of saved markers is only available to:</English>
+<Russian>Завантажити заготовлені маркери можуть тільки:</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_LOAD_FOR_LEAD">
+<English>Squad leaders</English>
+<Russian>Командири відділень</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_LOAD_FOR_ALL">
+<English>All</English>
+<Russian>Всі</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_LOAD_WHEN">
+<English>Loading availability</English>
+<Russian>Завантаження доступну коли</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_LOAD_WHEN_A">
+<English>Always</English>
+<Russian>Завжди</Russian>
+</Key>
+<Key ID="STR_SWT_M_MODUL_LOAD_WHEN_BRIEF">
+<English>Only on briefing</English>
+<Russian>Тільки на брифінгу</Russian>
+</Key>
+
+<Key ID="STR_SWT_M_MARKER">
+<English>Marker</English>
+<Russian>Маркер</Russian>
+</Key>
+<Key ID="STR_SWT_M_ELLIPSE">
+<English>Ellipse</English>
+<Russian>Овал</Russian>
+</Key>
+<Key ID="STR_SWT_M_LINE">
+<English>Line</English>
+<Russian>Лінія</Russian>
+</Key>
+
+<Key ID="STR_SWT_M_MARKCREATED">
+<English>%1 has placed the &lt;font color='#F88379'&gt;&lt;marker name='%2'&gt;%4&lt;/marker&gt;&lt;/font&gt; into %3</English>
+<Russian>%1 поставив &lt;font color='#F88379'&gt;&lt;marker name='%2'&gt;%4&lt;/marker&gt;&lt;/font&gt; в %3</Russian>
+</Key>
+<Key ID="STR_SWT_M_MARKDELETED">
+<English>%1 deleted the %2's &lt;font color='#F88379'&gt;%4&lt;/font&gt;</English>
+<Russian>%1 видалив &lt;font color='#F88379'&gt;%4&lt;/font&gt; %2'а</Russian>
+</Key>
+<Key ID="STR_SWT_M_MARKDIR">
+<English>%1 changed the direction of his&#160;</English>
+<Russian>%1 змінив направлення свого&#160;</Russian>
+</Key>
+<Key ID="STR_SWT_M_MARKPOS">
+<English>%1 changed the position of his&#160;</English>
+<Russian>%1 змінив позицію свого&#160;</Russian>
+</Key>
+<Key ID="STR_SWT_M_MARKLOAD">
+<English>%1 load %2 markers</English>
+<Russian>%1 завантажив %2 маркерів</Russian>
+</Key>
+<Key ID="STR_SWT_M_INFOWIN">
+<English>Placed by: %3&lt;br/&gt;%4&lt;br/&gt;Time:&#160;</English>
+<Russian>Встановлений: %3&lt;br/&gt;%4&lt;br/&gt;Час:&#160;</Russian>
+</Key>
+<Key ID="STR_SWT_M_INFOLOADED">
+<English>&#160;Loaded</English>
+<Russian>&#160;Завантажений</Russian>
+</Key>
+<Key ID="STR_SWT_M_MESS_CANTCHANGE">
+<English>SWT MARKERS: You can change only your markers</English>
+<Russian>SWT MARKERS: Ви можете змінювати тільки ваші маркери</Russian>
+</Key>
+<Key ID="STR_SWT_M_THICKNESS">
+<English>Thickness: %1</English>
+<Russian>Ширина: %1</Russian>
+</Key>
+
+<Key ID="STR_SWT_M_INFOTXT">
+<English>&lt;t size='0.77'&gt;&lt;t align='center' color='%1'&gt;Main info&lt;/t&gt;&lt;br/&gt;&lt;t align='center' color='%1'&gt;Hotkeys:&lt;/t&gt;&lt;br/&gt;&lt;t color='%1'&gt;Arrows Up-Down&lt;/t&gt; - change marker icon&lt;br/&gt;&lt;t color='%1'&gt;Shift + Arrows Up-Down&lt;/t&gt; - change marker color&lt;br/&gt;&lt;t color='%1'&gt;Shift + (Arrows Left-Right) or Ctrl + (,. or Mouse Wheel)&lt;/t&gt; - change channel&lt;br/&gt;&lt;t color='%1'&gt;Alt + hold LMB&lt;/t&gt; on marker - change marker direction&lt;br/&gt;&lt;t color='%1'&gt;Ctrl + Alt + hold LMB&lt;/t&gt; - draw straight lines (thickness: ctrl -, alt +)&lt;br/&gt;&lt;t color='%1'&gt;Shift + Alt + hold LMB&lt;/t&gt; - draw ellipse&lt;br/&gt;&lt;t color='%1'&gt;Shift + Ctrl&lt;/t&gt; - put marker on the nearest road&lt;br/&gt;&lt;t color='%1'&gt;Shift + mouse wheel&lt;/t&gt; - change markers size&lt;br/&gt;&lt;t color='%1'&gt;Ctrl + N, G or T&lt;/t&gt; - select text mode&lt;br/&gt;&lt;t color='%1'&gt;Ctrl + Enter&lt;/t&gt; - place marker without closing display&lt;br/&gt;&lt;t color='%1'&gt;Ctrl + Click on map&lt;/t&gt; - quick marker placement&lt;br/&gt;You can change marker settings by clicking on the neccessary color or the icon above.&lt;br/&gt;Doubleclick the main marker to show additional marker selection options.&lt;/t&gt;</English>
+<Russian>&lt;t size='0.77'&gt;&lt;t align='center' color='%1'&gt;Основна інформація&lt;/t&gt;&lt;br/&gt;&lt;t align='center' color='%1'&gt;Гарячі клавіші:&lt;/t&gt;&lt;br/&gt;&lt;t color='%1'&gt;Стрілки Вверх-Вниз&lt;/t&gt; - змінити тип маркера&lt;br/&gt;&lt;t color='%1'&gt;Shift + Стрілки Вверх-Вниз&lt;/t&gt; - змінити колір маркера&lt;br/&gt;&lt;t color='%1'&gt;Shift + (Стрілки Вліво-Вправо) чи Ctrl+(, . або скрол)&lt;/t&gt; - змінити канал&lt;br/&gt;&lt;t color='%1'&gt;Alt + (Утримувати ЛКМ)&lt;/t&gt; - змінити направлення маркера&lt;br/&gt;&lt;t color='%1'&gt;Ctrl + Alt + Утримувати ЛКМ&lt;/t&gt; - малювати прямі лінії (Ширина: Ctrl -, Alt +)&lt;br/&gt;&lt;t color='%1'&gt;Shift + Alt + утримувати ЛКМ&lt;/t&gt; - овал&lt;br/&gt;&lt;t color='%1'&gt;Shift + Ctrl&lt;/t&gt; - встановити маркер на найближчу дорогу&lt;br/&gt;&lt;t color='%1'&gt;Shift + скрол мишки&lt;/t&gt; - змінити розмір маркера&lt;br/&gt;&lt;t color='%1'&gt;Ctrl + N, G чи T&lt;/t&gt; - вибрати текстову добавку&lt;br/&gt;&lt;t color='%1'&gt;Ctrl + Enter&lt;/t&gt; - встановити маркер&lt;br/&gt;&lt;t color='%1'&gt;Ctrl + Клік по карті&lt;/t&gt; - швидко встановити маркер&lt;br/&gt;Ви можете змінити параметри маркера, клікнув по необхідному кольору чи іконці зверху.&lt;br/&gt;При подвійному кліку по основному маркеру з'являються додаткові опції вибору маркера.&lt;/t&gt;</Russian>
+</Key>
+
+
+<Key ID="STR_SWT_M_SETTXT">
+<English>&lt;t size='0.77'&gt;&lt;t align='center' color='%1'&gt;Settings:&lt;/t&gt;&lt;br/&gt;To change settings press &lt;img image='\a3\Ui_f\data\GUI\Rsc\RscDisplayArcadeMap\icon_config_ca.paa'/&gt;&lt;br/&gt;You can configure the marker slots in the main settings.&lt;br/&gt;&lt;br/&gt;You can configure the interface parts and load the saved markers in advanced settings. This function is limited to squad leaders only by default.&lt;br/&gt;Loading limit: &lt;t color='%1'&gt;750 markers&lt;/t&gt; at a time.&lt;br/&gt;&lt;br/&gt; Saving is available to all. Saving too many markers to you profile is unadvised (&gt;1000) and can lead to glitches and crashes. In this cases, use the Fast Load option.&lt;/t&gt;</English>
+<Russian>&lt;t size='0.77'&gt;&lt;t align='center' color='%1'&gt;Налаштування:&lt;/t&gt;&lt;br/&gt;Для зміни параметрів натисніть &lt;img image='\a3\Ui_f\data\GUI\Rsc\RscDisplayArcadeMap\icon_config_ca.paa'/&gt;&lt;br/&gt;В основних налаштуваннях ви можете налаштувати слоти маркерів.&lt;br/&gt;&lt;br/&gt;В разширених — налаштувати елементи інтерфейсу i завантажити збережені маркери. Стандартно цією функцією можуть користуватися тільки командири відділень.&lt;br/&gt;Обмеження на завантаження: &lt;t color='%1'&gt;750 маркерів&lt;/t&gt; за раз.&lt;br/&gt;&lt;br/&gt;Зберігати маркери можуть всі. Не рекомендується зберігати багато маркерів у профіль (&gt;1000), це може привести до зависанням. В такому випадку можливо використати опцію швидке завантаження.&lt;/t&gt;</Russian>
+</Key>
+
+
+
+<Key ID="STR_SWT_M_ATXT">
+<English>&lt;t size='0.77'&gt;&lt;t align='center' color='%1'&gt;Credits:&lt;/t&gt;&lt;br/&gt;Sweet Markers System v. 2.1&lt;br/&gt;Created by swatSTEAM&lt;br/&gt;Translation by: &lt;a underline='true' color='%1' IGL&lt;br/&gt;For project to &lt;a underline='true' color='%1' href=''&gt;Ukrainian&#160;Big&#160;Games&lt;/a&gt;&lt;br/</English>
+<Russian>&lt;t size='0.77'&gt;&lt;t align='center' color='%1'&gt;Iнформацiя:&lt;/t&gt;&lt;br/&gt;Sweet Markers System v. 2.1&lt;br/&gt;Created by swatSTEAM&lt;br/&gt;Translation by: &lt;a underline='true' color='%1' IGL&lt;br/&gt;For project to &lt;a underline='true' color='%1' href=''&gt;Ukrainian&#160;Big&#160;Games&lt;/a&gt;&lt;br/</Russian>
+</Key>
+
+<Key ID="str_channel_global">
+<English>Global Channel</English>
+<Russian>Глобальний канал</Russian>
+</Key>
+<Key ID="str_channel_side">
+<English>Side Channel</English>
+<Russian>Канал сторони</Russian>
+</Key>
+<Key ID="str_channel_command">
+<English>Command Channel</English>
+<Russian>Командний канал</Russian>
+</Key>
+<Key ID="str_channel_group">
+<English>Channel Group</English>
+<Russian>Канал групи</Russian>
+</Key>
+<Key ID="str_channel_vehicle">
+<English>Vehicle Channel</English>
+<Russian>Транспортний канал</Russian>
+</Key>
+<Key ID="str_channel_direct">
+<English>Direct Channel</English>
+<Russian>Прямий канал</Russian>
+</Key>
+
+</Container>
+
+</Container>
+</Package></Project>
